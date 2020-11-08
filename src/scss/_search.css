@@ -1,0 +1,42 @@
+$font-main: "Asap", sans-serif;
+$font-second: "Josefin Slab", serif;
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  color: white;
+  font-family: $font-second;
+  font-weight: 500;
+}
+.search-header {
+  font-size: 4rem;
+  margin: 2rem auto 3rem auto;
+  text-align: center;
+}
+.search-header-link,
+.search-header-link:visited,
+.search-header-link:link {
+  text-decoration: none;
+  color: lightblue;
+}
+.search-header-link:hover {
+  text-decoration: underline;
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  margin: 2rem auto;
+}
+#search-area {
+  width: 30vw;
+  height: 10vh;
+  font-size: 2rem;
+  margin: 3rem auto;
+}
+.submit-button {
+  font-size: 2rem;
+}
